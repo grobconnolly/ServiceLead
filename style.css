@@ -104,7 +104,11 @@ padding-left: 10%;
 
 .subjectHeadFooter{
     font-size: 25px;
-    color: #102D47;
+    color:white;
+}
+
+.footerText{
+    color: white;
 }
 
 .subjectHeadContact{
