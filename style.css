@@ -113,6 +113,16 @@ padding-left: 10%;
     color: #102D47;
 }
 
+.videoSection{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+.page-footer{
+    background-color: #102D47 ;
+}
+
 /* Learn More Section */
 
 .mainArea {
