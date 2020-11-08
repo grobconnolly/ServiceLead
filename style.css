@@ -44,8 +44,7 @@ padding-bottom: 0%;
 
 .heroIcon{
     color: #102D47;
-    padding-top: 10%;
-    padding-bottom: 2em;
+    padding-top: 5em;
     vertical-align: middle;
 }
 
@@ -156,5 +155,11 @@ padding-left: 10%;
     padding-left: 2%;
     padding-right: 2%;
 }
+}
+
+@media only screen and (min-width: 1000px) {
+ .heroText{
+     font-size: 72px;
+ }   
 
   }
