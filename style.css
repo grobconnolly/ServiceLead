@@ -3,12 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.dropdown{
-    padding-top: 3%;;
-}
 
 .navbar{
     font-size: 18px;
+}
+
+.navdrop{
+    padding-top: 1em;
 }
 
 .navbar-nav > li{
