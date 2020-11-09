@@ -191,6 +191,11 @@ padding-left: 10%;
     padding-left: 2%;
     padding-right: 2%;
 }
+.signup-box{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -199,3 +204,35 @@ padding-left: 10%;
  }   
 
   }
+
+.signup-box{
+ padding-top:3em;
+ padding-bottom: 3em;
+ background-image: url(./assets/images/leadBackground.png);
+ background-size: cover;
+}
+
+.data-box{
+    border: rgb(178, 178, 178) 2px solid;
+    background-color: rgba(122, 122, 122, 0.388);
+    padding-top:1em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+.plumbTest{
+    padding-top: 2em;
+}
+
+.plumbHead{
+    font-weight: 900;
+}
+
+.signUp{
+    font-size: 25px;
+    font-weight: 900;
+}
+.textInfo{
+    padding-left: 3em;
+    padding-right: 3em;
+}
