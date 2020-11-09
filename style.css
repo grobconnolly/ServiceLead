@@ -236,3 +236,13 @@ padding-left: 10%;
     padding-left: 3em;
     padding-right: 3em;
 }
+
+.data-box{
+    border-radius: 13px;
+}
+
+.submit{
+    background-color: #102D47;
+    width: 40%;
+    border: lightsteelblue 3px solid;
+}
