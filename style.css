@@ -41,6 +41,7 @@ padding-bottom: 0%;
 
 .heroText, .heroButton, .heroSubText{
     padding-top: .4em;
+    
 }
 
 
@@ -60,6 +61,12 @@ padding-bottom: 0%;
 }
 
 .heroText{
+    font-size: 50px;
+    font-weight: 900;
+    color: #102D47;
+}
+
+#heroText{
     font-size: 50px;
     font-weight: 900;
     color: #102D47;
@@ -246,3 +253,12 @@ padding-left: 10%;
     width: 40%;
     border: lightsteelblue 3px solid;
 }
+
+
+
+
+
+  
+  * { color:#102D47 ; text-decoration: none;}
+  
+  
