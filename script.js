@@ -5,7 +5,7 @@ $(document).ready(function () {
                        
                         console.log('clicked button')
 
-                        var fullName = $('.fullName').val()
+                        var name = $('.name').val()
                         var email = $('.email').val()
                         var phone = $('.phone').val()
                         var company = $('.company').val()
