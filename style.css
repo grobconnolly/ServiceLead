@@ -22,7 +22,7 @@ body {
       color: white;
       width: 50%;
       margin-top: 1em;
-        margin-bottom: 1em;
+    margin-bottom: 1em;
   }
   
   a{
@@ -267,10 +267,6 @@ padding-left: 10%;
 }
 
 
-
-
-
-  
-  * { color:#102D47 ; text-decoration: none;}
+`* { color:#102D47 ; text-decoration: none;}
   
   
