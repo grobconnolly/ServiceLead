@@ -17,6 +17,18 @@ body {
     padding-right:20px;
   }
 
+  .btn-cta{
+      background-color: #102D47;
+      color: white;
+      width: 50%;
+      padding-top: 1em;
+      padding-bottom: 1em;
+  }
+  
+  a{
+      color: white;
+  }
+ 
 
 .back1 {
 background-image: url(./assets/images/back1.png);
