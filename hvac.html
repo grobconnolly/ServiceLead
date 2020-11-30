@@ -35,7 +35,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>ServiceLead Blog!</title>
+    <title>ServiceLead for HVAC Contractors</title>
     
 
     <script src="./script.js"></script>
@@ -43,15 +43,13 @@
 
 <body>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XXV45" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XXV45"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-
-
     <!-- Navbar -->
-   
+    
     <div class="container-fluid" id="navbar">
     
     </div>
@@ -60,42 +58,75 @@
         $("#navbar").load("navbar.html"); 
         });
           </script>
+          
 
     <!-- Navbar End-->
 
+    <!-- Sign Up -->
 
-    <!-- Hero Space -->
-
-    <div class="container-fluid back2">
+    <div class="container-fluid signup-box">
         <div class="row">
-            <div class="col-12 text-center">
-                <h1>Blog</h1>
+            <div class="col-lg-6 col-md-12 col-xs-12">
+                <h1 class='text-left plumbHead'>Find out why so many HVAC companies choose ServiceLead!</h1>
+        
+        <h3 class='plumbTest order-sm-3'>"Using ServiceLead has made my company grow 170% in just 6 months!"<br></h3>
+                <p>
+                    Steven Roberts - Owner of Happy Plumbing.</p>
+                </div>
+                
+        
+
+            <div class="col-lg-5 col-md-12 col-xs-12 data-box">
+                    <p class="signUp">Would you like to learn more!</p>
+                    <form action="https://formspree.io/f/xqkglzar" method="POST">
+                        <!--   
+                            <input type="text" name="name">
+                        <input type="email" name="_replyto">
+                        <input type="submit" value="Send">
+                      </form>
+                    -->
+                
+                    <form action="https://formspree.io/f/xqkglzar" method="post">
+
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" name="name" class="form-control name" id="inputFullName" aria-describedby="emailHelp"
+                                placeholder="John Doe">
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input">Email</label>
+                            <input type="email" name="_replyto" class="form-control email" id="inputEmail" placeholder="test@test.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input">Email</label>
+                            <input type="phone" name="phone" class="form-control phone" id="inputPhone" placeholder="222-222-2222">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input">Company Name</label>
+                            <input type="text" name="company" class="form-control company" id="inputCompany" placeholder="Bill's Plumbing">
+                        </div>
+
+                    
+
+                        <button type="submit" class="btn btn-primary submit">Submit</button>
+                    </form>
+                    <div class='status'>
+
+                    </div>
+                </div>
             </div>
+
         </div>
 
-        <div class="row">
-            <div class="col-6">
-                <h2>What is ServiceLead</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-2">
-                <iframe src="https://player.vimeo.com/video/485292031" width="640" height="360" frameborder="0"
-                    allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-            </div>
-
-        </div>
     </div>
     </div>
 
+    <!-- Sign Up End-->
 
-
-    <!-- Hero Space End -->
-
-
-
-    <!-- About Us End-->
 
     <!-- Footer -->
 
@@ -115,11 +146,11 @@
                     <p class="footerText">
                         <div class="row">
                             <div class="col-12 footerText">
-                                ServiceLead is helping hundreds of businesses across the United States grow their
-                                business in their market. Our service is desigened to help today's service contractors
-                                better manage their businesses. We are here to help you convert online leads to booked
-                                service appointments. Find out why so many contractors trust ServiceLead to grow their
-                                business!
+                                ServiceLead is helping hundreds of businesses across the United States
+                                grow their business in their market. Our service is desigened to help
+                                today's service contractors better manage their businesses. We are here
+                                to help you convert online leads to booked service appointments. Find
+                                out why so many contractors trust ServiceLead to grow their business!
                             </div>
                         </div>
                     </p>
@@ -142,7 +173,7 @@
                         <li>
                             <a href="tel:619-368-8116">619-368-8116</a>
                         </li>
-
+                    
                     </ul>
 
                 </div>
@@ -154,10 +185,9 @@
                     <!-- Links -->
                     <h5 class="subjectHeadFooter">Address</h5>
 
-                    <span class="address footerText">
-                        ServiceLead.com<br>PO Box 294
-                        <br>La Mesa, CA 91944
-                        </p>
+                    <p class="address footerText">
+                        ServiceLead
+                    </p>
 
 
                 </div>
@@ -179,6 +209,7 @@
 
     <!-- Footer End-->
 
+  
 </body>
 
 </html>

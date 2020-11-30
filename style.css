@@ -166,6 +166,9 @@ padding-left: 10%;
     background-color: #102D47 ;
 }
 
+a:hover {
+    color: darkgray;
+  }
 
 /* Sign Up Form */
 
