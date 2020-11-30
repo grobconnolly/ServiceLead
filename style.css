@@ -156,11 +156,18 @@ padding-left: 10%;
     color: #102D47;
 }
 
-.videoSection{
-    padding-top: 2em;
-    padding-bottom: 2em;
+.videoButton{
+    margin-bottom: 1em;
 }
 
+.videoSection{
+    padding-top: 2em;
+padding-bottom: 0px;
+}
+
+#videoSize{
+    width: 100%;
+}
 
 .page-footer{
     background-color: #102D47 ;
@@ -170,6 +177,8 @@ a:hover {
     color: darkgray;
   }
 
+
+  
 /* Sign Up Form */
 
 .leadSignUp{
