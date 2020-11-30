@@ -6,6 +6,7 @@ body {
 
 .navbar{
     font-size: 18px;
+    width: 100%;
 }
 
 .navdrop{
@@ -149,6 +150,7 @@ padding-left: 10%;
 .footerText{
     color: white;
 }
+
 
 .subjectHeadContact{
     padding-top: 1%;
